@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .nav {
+      height: 50px;
+      width: 100%;
+      margin: 0px;
+      background-color: aliceblue;
+      position: fixed;
+    }
+
+    .nav p {
+      display: inline-block;
+      font-family: 'Times New Roman', Times, serif;
+    }
+
+    #arch {
+      padding-right: 800px;
+    }
+
+    #pro, #about, #contact {
+      padding-right: 20px;
+    }
+
+    .cover > img {
+      height: 100vh;
+      width: 100vw;
+     
+    }
+
+    .cover p {
+      position: absolute;
+      top: 45%;
+      left: 45%;
+      font-size: xx-large;
+      color: black;
+    }
+
+    .main {
+      padding: 10px;
+    }
+
+    .row1 {
+      padding-top: 10px;
+      
+    }
+    .row2{
+    padding-top: 20px;
+    }
+
+    .image-block {
+      display: inline-block;
+      padding-right: 5px;
+      position: relative;
+    }
+
+    .image-block img {
+      height: 200px;
+      width: 300px;
+      display: block;
+    }
+
+    .image-block h2 {
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      margin: 0;
+      background-color: black;
+      color: white;
+      padding: 10px;
+      font-size: 1rem;
+    }
+    .img-block{
+        display: inline-block;
+        width:300px;
+        padding:5px;
+    }
+    .img-block img{
+        height:200px;
+        width:300px;
+    }
+    button{
+       width:100px;
+       background-color: black;
+       color: aliceblue;
+    }
+    input, textarea{
+        width:800px;
+        height:20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="nav">
+    <p id="arch"><b>BR </b>Architects</p>
+    <p id="pro">projects</p>
+    <p id="about">about</p>
+    <p id="contact">contact</p>
+  </div>
+
+  <div class="cover">
+    <img src="https://www.w3schools.com/w3images/architect.jpg">
+    <p style="color: aliceblue;"><span style="background-color: black; color: rgb(255, 255, 255);">BR </span>Architects</p>
+  </div>
+
+  <section class="main">
+    <h2>Projects</h2>
+    <div class="row1">
+      <div class="image-block">
+        <img src="https://www.w3schools.com/w3images/house5.jpg">
+        <h2>Summer House</h2>
+      </div>
+      <div class="image-block">
+        <img src="https://www.w3schools.com/w3images/house2.jpg">
+        <h2>Brick House</h2>
+      </div>
+      <div class="image-block">
+        <img src="https://www.w3schools.com/w3images/house3.jpg">
+        <h2>Renovated</h2>
+      </div>
+      <div class="image-block">
+        <img src="https://www.w3schools.com/w3images/house4.jpg">
+        <h2>Barn house</h2>
+      </div>
+    </div>
+    <div class="row2">
+      <div class="image-block">
+        <img src="https://www.w3schools.com/w3images/house2.jpg">
+        <h2>Summer House</h2>
+      </div>
+      <div class="image-block">
+        <img src="https://www.w3schools.com/w3images/house5.jpg">
+        <h2>Brick House</h2>
+      </div>
+      <div class="image-block">
+        <img src="https://www.w3schools.com/w3images/house3.jpg">
+        <h2>Renovated</h2>
+      </div>
+      <div class="image-block">
+        <img src="https://www.w3schools.com/w3images/house4.jpg">
+        <h2>Barn house</h2>
+      </div>
+    </div>
+  </section>
+  <section class="about">
+    <h4 style="font-size:x-large;">About</h4>
+    <p style="font-size: medium;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+         nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt 
+         mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
+         nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+  </section>
+  <section class="founders">
+    <div class="img-block">
+        <img src="https://www.w3schools.com/w3images/team2.jpg">
+        <h2>John doe</h2>
+        <h4>CEO and Founder</h4>
+        <p>Phasellus eget enim eu lectus faucibus vestibulum.
+             Suspendisse sodales pellentesque elementum.</p>
+        <button>contact</button>
+    </div>
+     <div class="img-block">
+        <img src="https://www.w3schools.com/w3images/team1.jpg">
+        <h2>Jane doe</h2>
+        <h4>Architect</h4>
+        <p>Phasellus eget enim eu lectus faucibus vestibulum.
+             Suspendisse sodales pellentesque elementum.</p>
+        <button>contact</button>
+    </div>
+     <div class="img-block">
+        <img src="https://www.w3schools.com/w3images/team3.jpg">
+        <h2>Mike ross</h2>
+        <h4>Architect</h4>
+        <p>Phasellus eget enim eu lectus faucibus vestibulum.
+             Suspendisse sodales pellentesque elementum.</p>
+        <button>contact</button>
+    </div>
+     <div class="img-block">
+        <img src="https://www.w3schools.com/w3images/team4.jpg">
+        <h2>Dan star</h2>
+        <h4>Architect</h4>
+        <p>Phasellus eget enim eu lectus faucibus vestibulum.
+             Suspendisse sodales pellentesque elementum.</p>
+        <button>contact</button>
+    </div>
+  </section>
+  <section class="form">
+    <h2>Contact</h2>
+    <p>Lets get in touch and talk about your next project.</p>
+     <form>
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required><br>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required><br>
+
+      <label for="subject">Subject</label>
+      <input type="text" id="subject" name="subject"><br>
+
+      <label for="comment">Comment</label>
+      <textarea id="comment" name="comment" rows="4"></textarea><br>
+
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+</body>
+</html>
